@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Caompatible" content="ie=edge">
+     <title>Materilize | Carrousel</title>
+
+    <!-- Fontawasome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+     <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet">
+
+    <!-- Materialize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"> -->
+    <!-- CSS Estilos -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+                <h1 class="center-align titulo">Seccion de juegos</h1>
+                <button class="slick-arrow slick-prev" id="button-prev" onclick="prev()" aria-controls="myCarousel-items" aria-label="Presione enter para ir a la imagen anterior.>
+                        <img src="./img/arrow-bar-left.svg">
+                    </button>
+                <div class="carousel center-align" aria-labelledby="carouselheading" id="myCarousel-items" aria-live="off">
+                    
+                    <div class="carousel-item active"  role="group" aria-roledescription="slide" aria-label="1 de 6"> 
+                                        
+                            <div class="card-content">
+                                <div class="sideBar-img img-holder">
+                                    <img src="img/1.jpg" alt="juego1">
+                                        <i class="far fa-play-circle fa-10x posicion-play" onclick="location.href='https://google.com';"></i>
+                                </div>
+                                <div class="contenedor-text">
+                                    <h2 class="subtitulo">Game detail:</h2>
+                                    <p class="sabor">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                    Illo officiis dolorem architecto, maxime amet culpa fuga qui, harum, tenetur 
+                                    commodi soluta quisquam. Unde deleniti, ad veritatis at voluptates.</p>
+                                </div>
+                         <button tabindex="0" aria-label="Haga click si decea jugar este juego" onclick="location.href='https://google.com';">entra</button>>
+            
+                                
+                            </div>
+                        
+                    
+                        </div>
+
+                    <div class="carousel-item "  role="group" aria-roledescription="slide" aria-label="2 de 6"> 
+                                        
+                        <div class="card-content">
+                            <div class="sideBar-img img-holder">
+                                <img src="./img/2.jpg" alt="juego2">
+                                <i class="far fa-play-circle fa-10x posicion-play" onclick="location.href='#';"></i>
+                                        
+                                
+                            </div>
+                            <div class="contenedor-text">
+                                <h2 class="subtitulo">Game detail:</h2>
+                                <p class="sabor">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Illo officiis dolorem architecto, maxime amet culpa fuga qui, harum, tenetur 
+                                commodi soluta quisquam. Unde deleniti, ad veritatis at voluptates.</p>
+                            </div>
+                            
+                        </div>
+                    
+                
+                    </div>
+                        
+                    <div class="carousel-item "  role="group" aria-roledescription="slide" aria-label="3 de 6"> 
+                                            
+                        <div class="card-content">
+                            <div class="sideBar-img img-holder">
+                                <img src="./img/3.jpg" alt="juego3">
+                                <i class="far fa-play-circle fa-10x posicion-play" onclick="location.href='https://google.com';"></i>
+                                        
+                            </div>
+                            <div class="contenedor-text">
+                                <h2 class="subtitulo">Game detail:</h2>
+                                <p class="sabor">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Illo officiis dolorem architecto, maxime amet culpa fuga qui, harum, tenetur 
+                                commodi soluta quisquam. Unde deleniti, ad veritatis at voluptates.</p>
+                            </div>
+                            
+                        </div>
+                    
+                
+                    </div>
+                    <div class="carousel-item "  role="group" aria-roledescription="slide" aria-label="4 de 6"> 
+                                                
+                        <div class="card-content">
+                            <div class="sideBar-img img-holder">
+                                <img src="./img/4.jpg" alt="juego4">
+                                <i class="far fa-play-circle fa-10x posicion-play" onclick="location.href='https://google.com';"></i>
+                                
+                            </div>
+                            <div class="contenedor-text">
+                                <h2 class="subtitulo">Game detail:</h2>
+                                <p class="sabor">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Illo officiis dolorem architecto, maxime amet culpa fuga qui, harum, tenetur 
+                                commodi soluta quisquam. Unde deleniti, ad veritatis at voluptates.</p>
+                            </div>
+                            
+                        </div>
+                    
+                
+                    </div>
+                    <div class="carousel-item "  role="group" aria-roledescription="slide" aria-label="5 de 6"> 
+                                                    
+                        <div class="card-content">
+                            <div class="sideBar-img img-holder">
+
+                                <img src="./img/5.jpg" alt="juego5">
+                                <i class="far fa-play-circle fa-10x posicion-play" onclick="location.href='https://google.com';"></i>
+                                
+                            </div>
+                            <div class="contenedor-text">
+                                <h2 class="subtitulo">Game detail:</h2>
+                                <p class="sabor">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Illo officiis dolorem architecto, maxime amet culpa fuga qui, harum, tenetur 
+                                commodi soluta quisquam. Unde deleniti, ad veritatis at voluptates.</p>
+                            </div>
+                            
+                        </div>
+                                    
+                    </div>   
+                    <div class="carousel-item "  role="group" aria-roledescription="slide" aria-label="6 de 6" >                                             
+                        <div class="card-content">
+                            <div class="sideBar-img img-holder">
+                                <img src="./img/6.jpg" alt="juego6">
+                                    <i class="far fa-play-circle fa-10x posicion-play" onclick="location.href='https://google.com';"></i>
+                            
+                            </div>
+
+                            <div class="contenedor-text">
+                                <h2 class="subtitulo">Game detail:</h2>
+                                <p class="sabor">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Illo officiis dolorem architecto, maxime amet culpa fuga qui, harum, tenetur 
+                                commodi soluta quisquam. Unde deleniti, ad veritatis at voluptates. </p>
+                            </div>
+                            
+                            
+                        </div>
+                    
+
+                    </div>   
+                   
+                </div>
+                <!-- Next and previous buttons -->
+                <!-- <i class="carousel fas fa-arrow-circle-left fa-5x posicion-arrow-left"></i>
+                <i class="carousel fas fa-arrow-circle-right fa-5x"></i> -->
+                <button class="slick-arrow slick-next" id="button-next" onclick="next()" aria-controls="myCarousel-items" aria-label="Presione enter para ir a la imagen siguiente>
+                    <img src="./img/arrow-bar-right.svg">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Materialize.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JS Main -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
